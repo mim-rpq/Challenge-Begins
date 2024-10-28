@@ -189,3 +189,30 @@ body{
     padding: 10px 18px;
     margin: 28px 0px 0px 0px;
 }
+
+/* inspiration style -------- */
+
+.inspiration-container{
+    margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-text{
+    padding: 0px 80px;
+}
+
+.inspiration-video iframe{
+    height: 484px;
+    width: 946px;
+    border-radius: 14px;
+   
+}
+
+.video{
+  padding:28px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 14px;
+}
