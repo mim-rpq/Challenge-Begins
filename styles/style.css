@@ -258,3 +258,66 @@ body{
 .js-box{
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* support style ---------- */
+
+.support-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../images/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 43px;
+    border-radius: 14px;
+    padding:56px 42px;
+}
+
+.support-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 31px;
+    margin:0px;
+}
+
+.support-color{
+    color: rgb(255, 255, 255);
+}
+.support-des{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0;
+    text-align: center;
+    opacity: .7;
+}
+
+.input-div{
+    display: flex;
+    gap: 14px;
+    margin-top: 21px;
+}
+
+.input-div input[type="text"]{
+     padding: 12px 180px 12px 20px;
+}
+
+.input-style{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.input-div input[type="submit"]{
+    padding: 10px 18px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px
+}
+::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
