@@ -225,15 +225,7 @@ body{
 }
 
 
-
-.target-description{
-    font-size: 14.08px;
-    font-weight: 400;
-    line-height: 21px;
-    margin-top: 6px;
-    
- }
- .target-content{
+.target-content{
     display: flex;
     gap:21px;
  }
@@ -242,6 +234,24 @@ body{
     padding: 35px;
     border-radius: 14px;
  }
+
+ .target-title{
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 31px;
+    margin: 0;
+}
+
+.current-target-title{
+    margin: 21px 0px 0px;
+}
+
+.target-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 7px 0px 21px ;
+}
 
  .target-box a{
     font-size: 14px;
@@ -257,6 +267,29 @@ body{
  }
 .js-box{
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* Next target style ------------ */
+
+.next-target-box{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 14px;
+    background: rgb(255, 255, 255);
+    padding: 35px;
+}
+
+.next-target-img img{
+    width: 92px;
+    height: 82px;
+}
+
+.next-target-text a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
 }
 
 /* support style ---------- */
